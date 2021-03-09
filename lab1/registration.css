@@ -1,0 +1,34 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 0.2;
+}
+header,footer{
+    height: 15vh;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#main > nav,#main > aside{
+    width: 10vw;
+}
+nav{
+    order: 0;
+}
+aside{
+    order: 2;
+}
+article{
+    order: 1;
+}
+.login-title{
+    text-align: center;
+}
+#nav-buttons{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
